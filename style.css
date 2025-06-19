@@ -13,6 +13,12 @@
     width: 100%;
 }
 
+.heart{
+    display: inline-block;
+    position: fixed;
+    left: 1030PX;
+}
+
 .sub-menu {
     margin-top: 104px;
     display: flex;
@@ -48,7 +54,7 @@
 }
 
 .links-2 {
-
+    
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
@@ -108,4 +114,53 @@
 
 #sub-baner2{
     margin: 15px;
+}
+
+.link-icones1{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link-icones2{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link-icones3{
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-icones4{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+
+.heart-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.4);
+}
+
+.user-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1);
+}
+
+.telephone-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.4);
+}
+
+.cart-check-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.8);
 }
