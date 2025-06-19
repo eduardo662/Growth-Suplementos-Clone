@@ -1,5 +1,7 @@
 🚀 Growth Suplementos Clone
 
+Projeto criado apenas para fins de estudo.
+
 Clone da interface da loja virtual **Growth Suplementos**, desenvolvido com o objetivo de praticar e aprimorar habilidades em **desenvolvimento front-end**.
 
 ## 🖥️ Tecnologias Utilizadas
