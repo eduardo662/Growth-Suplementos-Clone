@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* Inicio menu e sub menu principal */
+
 .menu-1 {
     background-color: #1899d5;
     display: flex;
@@ -14,12 +16,22 @@
     z-index: 1000;
 }
 
-.heart{
-    display: inline-block;
+.sub-menu {
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     position: fixed;
-    left: 1030PX;
+    background: white;
+    width: 100%;
+    height: 40px;
+    z-index: 1000;
 }
 
+.sub-button1:hover {
+    opacity: 0.6;
+}
 
 .input-group{
     display: flex;
@@ -53,29 +65,6 @@
     width: 45px;
 }
 
-
-.sub-menu {
-    margin-top: 104px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    position: fixed;
-    background: white;
-    width: 100%;
-    height: 40px;
-    z-index: 1000;
-}
-
-#categorias-bold {
-    text-decoration: none;
-    color: black;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: bold;
-}
-
-
 #pesquisa {
     width: 30%;
     height: 50px;
@@ -93,11 +82,6 @@
     font-style: normal;
 }
 
-.input1{
-    display: inline-block;
-    width: 40%;
-    box-sizing: border-box;
-}
 
 .links-2 {
     
@@ -109,8 +93,59 @@
 
 }
 
+.link-icones1{
+    display: inline-flex;
+    align-items: center;
+}
 
 
+.link-icones2{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link-icones3{
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-icones4{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.heart-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.4);
+}
+
+.user-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1);
+}
+
+.telephone-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.4);
+}
+
+.cart-check-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.8);
+}
+
+/* Fim menu e sub menu principal */
+
+
+
+
+/* Inicio dos slides */
 
 .slider {
     padding-top: 143px;
@@ -216,6 +251,27 @@
     background-color: white;
 }
 
+/* Fim dos slides */
+
+
+
+
+/* Cards inicio */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 75px;
+    padding-left: 75px;
+
+}
+
+
+
 .borda1 {
     border: solid rgb(139, 139, 139) 1px;
     display: inline-flex;
@@ -272,17 +328,12 @@
     padding-left: 24px;
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    padding-right: 75px;
-    padding-left: 75px;
+/* Cards fim */
 
-}
+
+
+
+/* Inicio sub banners abaixo dos cards */
 
 .sub-baner{
     display: flex;
@@ -297,71 +348,17 @@
     margin: 15px;
 }
 
-.link-icones1{
-    display: inline-flex;
-    align-items: center;
-}
-
-
-.link-icones2{
-    display: inline-flex;
-    align-items: center;
-}
-
-
-.link-icones3{
-    display: inline-flex;
-    align-items: center;
-}
-
-.link-icones4{
-    display: inline-flex;
-    align-items: center;
-}
-
-
-
-
-.heart-fill{
-    display: inline-flex;
-    margin-right: 15px;
-    transform: scale(1.4);
-}
-
-.user-fill{
-    display: inline-flex;
-    margin-right: 15px;
-    transform: scale(1);
-}
-
-.telephone-fill{
-    display: inline-flex;
-    margin-right: 15px;
-    transform: scale(1.4);
-}
-
-.cart-check-fill{
-    display: inline-flex;
-    margin-right: 15px;
-    transform: scale(1.8);
-}
-
-
 #truck{
     width: 38px;
     fill: white;
 }
 
+/* Fim sub banners abaixo dos cards */
 
 
 
-.footer{
-    display: flex;
-    margin-top: 35px;
-    background-color: #1899d5;
-    width: 100%;
-    height: 80px;
-}
+
+/* Inicio Conheça os suplementos que transformarão seus resultados */
 
 .meio{
     display: flex;
@@ -382,7 +379,34 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Fim Conheça os suplementos que transformarão seus resultados */
 
-.sub-button1:hover {
-    opacity: 0.6;
+
+
+
+/* Inicio Fontes */
+
+#categorias-bold {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
 }
+
+/* Fim Fontes */
+
+
+
+
+/* Inicio footer */
+
+.footer{
+    display: flex;
+    margin-top: 35px;
+    background-color: #1899d5;
+    width: 100%;
+    height: 80px;
+}
+
+/* Fim footer */
