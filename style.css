@@ -11,6 +11,7 @@
     justify-content: space-evenly;
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 
 .heart{
@@ -63,6 +64,7 @@
     background: white;
     width: 100%;
     height: 40px;
+    z-index: 1000;
 }
 
 #categorias-bold {
@@ -110,9 +112,108 @@
 
 
 
-.banner {
+.slider {
     padding-top: 143px;
-    width: 100%;
+    width: 1920px;
+    height: 628px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 628px;
+}
+
+.slides input {
+    display: none;
+    justify-content: center;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img {
+    width: 1920px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 1920px;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 1920px;
+    margin-top: 428px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: white;
 }
 
 .borda1 {
@@ -279,4 +380,9 @@
     padding: 25px;
     width: 87%;
     font-family: "Poppins", sans-serif;
+}
+
+
+.sub-button1:hover {
+    opacity: 0.6;
 }

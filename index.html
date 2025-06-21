@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site 1</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -83,25 +83,101 @@
     <!-- Sub-menu abaixo do menu de navegação do site -->
 
     <div class="sub-menu">
+        <div class="sub-button1">
+            <a id="categorias-bold" href="#">Categorias</a>
+        </div>
 
-        <a id="categorias-bold" href="#">Categorias</a>
-        <a class="links-2" href="#">TOP 20</a>
-        <a class="links-2" href="#">LANÇAMENTOS</a>
-        <a class="links-2" href="#">WHEY PROTEIN</a>
-        <a class="links-2" href="#">CREATINA</a>
-        <a class="links-2" href="#">PRÉ-TREINO</a>
-        <a class="links-2" href="#">OBJETIVOS</a>
-        <a class="links-2" href="#">SNACKS</a>
-        <a class="links-2" href="#">MODA</a>
-        <a class="links-2" href="#">ACESSÓRIOS</a>
-        <a class="links-2" href="#">OUTLET</a>
+        <div class="sub-button1">
+            <a class="links-2" href="#">TOP 20</a>
+        </div>
+        
+        <div class="sub-button1">
+            <a class="links-2" href="#">LANÇAMENTOS</a>
+        </div>
+
+        <div class="sub-button1">
+            <a class="links-2" href="#">WHEY PROTEIN</a>
+        </div>
+        
+        <div class="sub-button1">
+            <a class="links-2" href="#">CREATINA</a>
+        </div>
+        
+        <div class="sub-button1">
+            <a class="links-2" href="#">PRÉ-TREINO</a>
+        </div>
+        
+        <div class="sub-button1">
+            <a class="links-2" href="#">OBJETIVOS</a>
+        </div>
+        
+        <div class="sub-button1">
+            <a class="links-2" href="#">SNACKS</a>
+        </div>
+
+        <div class="sub-button1">
+            <a class="links-2" href="#">MODA</a>
+        </div>
+
+        <div class="sub-button1">
+            <a class="links-2" href="#">ACESSÓRIOS</a>
+        </div>
+
+        <div class="sub-button1">
+            <a class="links-2" href="#">OUTLET</a>
+        </div>
+        
+        
+        
+        
 
     </div>
 
     <!-- Slides de banner na pagina principal -->
 
-    <div class="banner">
-        <img src="/img/banner.webp" alt="">
+    <div class="slider">
+        <div class="slides">
+            <!-- Radio buttons -->
+             <input type="radio" name="radio-btn" id="radio1">
+             <input type="radio" name="radio-btn" id="radio2">
+             <input type="radio" name="radio-btn" id="radio3">
+             <input type="radio" name="radio-btn" id="radio4">
+             <!-- Fim radio buttons -->
+
+             <!-- Slide images -->
+              <div class="slide first">
+                <img src="/img/banner-slide-1.webp" alt="Imagem 1">
+              </div>
+              <div class="slide">
+                <img src="/img/banner-slide-2.webp" alt="Imagem 2">
+              </div>
+              <div class="slide">
+                <img src="/img/banner-slide-3.webp" alt="Imagem 3">
+              </div>
+              <div class="slide">
+                <img src="/img/banner-slide-4.webp" alt="Imagem 4">
+              </div>
+            <!-- Fim do Slide images -->
+
+            <!-- Navigation auto -->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- Fim do Navigation auto -->
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
     </div>
 
     <!-- Cards de informação -->
@@ -239,7 +315,12 @@
     </footer>
 
 
+    <script>
+        window.addEventListener("load", function(){
+            window.scrollTo(0,0);
+        });
 
+    </script>
 
 </body>
 
