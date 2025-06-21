@@ -176,7 +176,10 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 75px;
+    padding-left: 75px;
 
 }
 
@@ -246,4 +249,34 @@
 #truck{
     width: 38px;
     fill: white;
+}
+
+
+
+
+.footer{
+    display: flex;
+    margin-top: 35px;
+    background-color: #1899d5;
+    width: 100%;
+    height: 80px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+}
+
+.borda-paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    width: 87%;
+    font-family: "Poppins", sans-serif;
 }
