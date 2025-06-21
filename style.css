@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+}
+
+.menu-1 {
+    background-color: #1899d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+.heart{
+    display: inline-block;
+    position: fixed;
+    left: 1030PX;
+}
+
+
+.input-group{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 16px 8px 8px;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.input-icon{
+    min-width: 32px;
+    min-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+    border-style: none;
+    padding-left: 20px;
+    color: gray;
+}
+
+.input-btn-icon{
+    border-style: none;
+    background-color: transparent;
+    width: 45px;
+}
+
+
+.sub-menu {
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 40px;
+}
+
+#categorias-bold {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+
+#pesquisa {
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+    text-align: left;
+
+}
+
+.links-1 {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.input1{
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.links-2 {
+    
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+
+}
+
+
+
+
+.banner {
+    padding-top: 143px;
+    width: 100%;
+}
+
+.borda1 {
+    border: solid rgb(139, 139, 139) 1px;
+    display: inline-flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 100px;
+
+}
+
+.borda2 {
+    border: solid rgb(139, 139, 139) 1px;
+    background-color: #1899d5;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteudo-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.conteudo-card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.conteudo-card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.conteudo-card4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.conteudo-card5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 75px;
+    padding-left: 75px;
+
+}
+
+.sub-baner{
+    display: flex;
+    justify-content: center;
+}
+
+#sub-baner1{
+    margin: 15px;
+}
+
+#sub-baner2{
+    margin: 15px;
+}
+
+.link-icones1{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link-icones2{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link-icones3{
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-icones4{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+
+.heart-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.4);
+}
+
+.user-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1);
+}
+
+.telephone-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.4);
+}
+
+.cart-check-fill{
+    display: inline-flex;
+    margin-right: 15px;
+    transform: scale(1.8);
+}
+
+
+#truck{
+    width: 38px;
+    fill: white;
+}
+
+
+
+
+.footer{
+    display: flex;
+    margin-top: 35px;
+    background-color: #1899d5;
+    width: 100%;
+    height: 80px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+}
+
+.borda-paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    width: 87%;
+    font-family: "Poppins", sans-serif;
+}
